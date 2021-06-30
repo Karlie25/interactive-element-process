@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>Interactive Elements:Duration(Time)</title>
+<!-- 	ggl fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+	<!-- adobe font -->
+	<link rel="stylesheet" href="https://use.typekit.net/tmg2lgb.css">
+
+	<!-- link to style sheet -->
+	
+	<link rel="stylesheet"href="timestyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- link to jquery -->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<!-- 	link to script -->
+	<script src="script.js" async></script>
+</head>
+<body>
+	<!-- start header section -->
+	<div class="header">
+		<h1>Interactive Elements: Duration (Time).</h1>
+		<h3>Instruction:</h3>
+		<p>Guess what country by waiting for hints. Each hint will appear after a particular time and then answer the quiz questions. I hope you all enjoy it!</p>
+	</div>
+	<!-- end header section -->
+	<div class="border">
+		<!-- start number 82 -->
+		<div class="number-82">
+			<p>82</p>
+		</div>
+		<!-- end number 82 -->
+		<!-- start won -->
+		<div class="won">
+			<p>Won</p>
+		</div>
+		<!-- end won -->
+		<!-- start the country  -->
+		<div class="country">
+			<p>Ginseng</p>
+		</div>
+		<div class="image-1">
+			<img src="country1.JPEG" alt="hint" width="250" height="150">
+		</div>
+		<!-- end the country -->
+
+		<div class="image-2">
+			<img src="dojang.JPEG" alt="hint" width="250" height="150">
+		</div>
+		<!-- end the border section -->
+		<!-- quiz section -->
+		<div id="quiz">
+			<h1 id="quiz-name"></h1>
+			<button id="submit-button">Submit Answers</button>
+			<button id="next-question-button">Next Question</button>
+			<button id="prev-question-button">Previous</button>
+
+			<div id="quiz-results">
+				<p id="quiz-results-message"></p>
+				<p id="quiz-results-score"></p>
+			</div>
+			<!-- end the quiz section -->
+		</div>
+	</body>
+	</html>
